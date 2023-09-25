@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "ThongTin";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<div class="container-fluid row">
+    <h2 class="mb-4" style="text-align: center; text-transform: uppercase;">Thông tin đăng ký</h2>
+    <div class="col-8 mb-3 offset-2">
+        <label class="row-cols-1 mb-2">Tên:</label>
+        <div class="row-cols-1">
+            <input type="text" style="border-radius: 6px; " class="border-white form-control"  placeholder="Nhập tên" />
+        </div>
+    </div>
+    <div class="col-8 mb-3 offset-2">
+        <label class="row-cols-1 mb-2">Mật khẩu:</label>
+        <div class="row-cols-1">
+            <input type="text" style="border-radius: 6px;" class="border-white form-control" placeholder="Nhập password" />
+        </div>
+    </div>
+    <div class="col-8 offset-2">
+        <label class="row-cols-1">Địa chỉ:</label>
+        <div class="row-cols-1">
+            <textarea class="form-control" rols="10" style="height: 140px;"></textarea>
+        </div>
+        <div class="row-cols-1 mb-3">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="ghinho">
+                <label class="form-check-label" for="ghinho">Ghi nhớ</label>
+            </div>
+        </div>
+    </div>
+    <div class="col-8 offset-2">
+        <button class="btn btn-primary mb-3" type="button">Gửi</button>
+    </div>
+</div>
