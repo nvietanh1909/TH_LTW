@@ -25,6 +25,7 @@
     <Property Name="NameCus" Type="nvarchar(max)" />
     <Property Name="PhoneCus" Type="nvarchar" MaxLength="15" />
     <Property Name="EmailCus" Type="nvarchar(max)" />
+    <Property Name="PassCus" Type="nchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityType Name="OrderDetail">
     <Key>
