@@ -37,7 +37,6 @@ namespace DemoWeb.Controllers
                 {
                     database.Customers.Add(cust);
                     database.SaveChanges();
-
                 }
                 else
                 {
