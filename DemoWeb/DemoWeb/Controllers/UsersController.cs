@@ -16,7 +16,7 @@ namespace DemoWeb.Controllers
         {
             return View();
         }
-       
+
         [HttpPost]
         public ActionResult Register(Customer cust)
         {
@@ -37,6 +37,7 @@ namespace DemoWeb.Controllers
                 {
                     database.Customers.Add(cust);
                     database.SaveChanges();
+
                 }
                 else
                 {
